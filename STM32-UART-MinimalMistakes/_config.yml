@@ -1,8 +1,8 @@
 title: "STM32F411 UART 실습 기록"
 email: your_email@example.com
 description: "STM32F411 보드 기반의 UART Polling / Interrupt / DMA 실습 정리"
-baseurl: "/STM32-UART-MinimalMistakes"
-url: "https://chhong.github.io"
+baseurl: "/On_Device_AI_Semicunductor_1"
+url: "https://hchh0301-stack.github.io"
 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
