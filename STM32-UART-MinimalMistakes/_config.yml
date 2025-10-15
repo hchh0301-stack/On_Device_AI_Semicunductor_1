@@ -1,0 +1,43 @@
+title: "STM32F411 UART 실습 기록"
+email: your_email@example.com
+description: "STM32F411 보드 기반의 UART Polling / Interrupt / DMA 실습 정리"
+baseurl: "/STM32-UART-MinimalMistakes"
+url: "https://chhong.github.io"
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+markdown: kramdown
+highlighter: rouge
+paginate: 5
+paginate_path: /page:num/
+
+author:
+  name: "홍씨 (chhong)"
+  avatar: "/images/avatar.png"
+  bio: "임베디드 시스템 개발자, STM32 / ATmega128A / Verilog 학습 중"
+  location: "Seoul, Korea"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/chhong"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      toc: true
+      toc_sticky: true
+      read_time: true
+      comments: false
+
+include:
+  - _pages
